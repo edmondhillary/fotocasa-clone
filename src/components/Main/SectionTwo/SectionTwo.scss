@@ -1,0 +1,62 @@
+.main-container-section-two {
+
+  width: 70%;
+  height: 60.2vh;
+
+  margin: 0 18.25rem ;
+//   border: 1px solid red;
+
+
+  span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .main-hr {
+    background: linear-gradient(90deg, #636bc5, rgba(30, 219, 207, 0.5));
+    border: 0;
+    border-radius: 8px;
+    height: 8px;
+    margin: 32px 0;
+    padding:0;
+    width: 144px;
+    margin-right: auto;
+    margin-top: auto; 
+  }
+}
+
+.carousel-sectionTwo {
+  height: 70%;
+  width: 100%;
+  border: 1px solid black ;
+}
+.h2-sectionTwo {
+  height: 10%;
+  width: 100%;
+  font-size: 22px;
+  line-height: 43.2px;
+  padding-right: 250px;
+}
+.h3-sectionTwo {
+  height: 10%;
+  width: 100%;
+//   border: 1px solid #9cc563;
+  font-size: 18px;
+  // line-height: 33.6px;
+  min-height: 34px;
+}
+.main-button {
+  position: absolute;
+  right: 288.5px;
+  top: 875px;
+
+//   width: auto;
+  cursor: pointer;
+  &:hover {
+    border-radius: 0.3rem !important;
+
+    background: rgba(174, 173, 173, 0.127) !important;
+  }
+}

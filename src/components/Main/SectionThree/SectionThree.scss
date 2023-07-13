@@ -1,0 +1,37 @@
+.img-section-three{
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+    // border-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.section-three-container{
+    margin: 0 18.25rem ;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #0C0D2C;
+    color: #fff;
+    height: 450px;
+    margin-bottom: 3.6rem;
+
+}
+.text-container-section-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:3rem ;
+    // padding: ;
+    width: 45%;
+    h1{
+        word-wrap: break-word;
+    }
+
+    p{
+        word-wrap: break-word;
+    }
+}
+.section-three-blueButton{
+    margin-top: 0.6rem;
+}

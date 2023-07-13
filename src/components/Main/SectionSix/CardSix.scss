@@ -1,0 +1,19 @@
+.card-sectionSix-container{
+   
+   padding: 0.5rem;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    a {
+        margin-top: 0.63rem;
+        text-decoration: none;
+      color: #303ab2;
+      font-size: 12px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+}

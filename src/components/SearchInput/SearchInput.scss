@@ -1,0 +1,46 @@
+.input-text-sectionOne {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  padding: 1rem;
+  color: black;
+
+  border: 1px solid black;
+}
+.inputSinBordes {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  background-color: #fff;
+  width: 100%;
+  caret-color: black;
+  margin-left: 0.5rem;
+// font-size: 18px;
+  /* Agrega cualquier otro estilo que desees */
+}
+.inputSinBordes::placeholder{
+    color: rgba(106, 106, 106, 0.544);
+    font-size: 12px;
+    
+
+}
+
+.inputContainer {
+    border-radius: 0.31rem;
+    width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem;
+  background-color: #fff;
+//   border: 1px solid black;
+  height: 2.8rem;
+  margin-right: 1rem;
+
+}
+
+.placeholderEspecifico {
+  font-family: "Arial", sans-serif;
+  color: rgba(35, 33, 33, 0.983); /* Cambia la fuente según tus preferencias */
+  /* Agrega cualquier otro estilo de placeholder que desees */
+}

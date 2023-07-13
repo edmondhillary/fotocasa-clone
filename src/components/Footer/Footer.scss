@@ -1,0 +1,111 @@
+.footer-container {
+    position: absolute;
+    background-color: #272E8E;
+    // height: 404px;
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+  }
+  .main-footer {
+    margin:0 4rem;
+    height: 100%;
+  }
+  
+  .main-footer-container {
+    margin: 0 8rem;
+   border-top: 1px solid #5258A6;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-footer-column {
+    flex:1;
+    margin-top: 2.5rem;
+  }
+  
+  /* Estilos adicionales para mejorar la apariencia */
+  .main-footer h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .main-footer ul {
+    list-style: none !important;
+    padding: 0;
+    list-style-type: none; /* Eliminar viñetas o guiones */
+
+  }
+  
+  .main-footer ul li {
+    margin-bottom: 0.5rem;
+
+  }
+  .adventia-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adventia-links-column {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .responsives-links-footer {
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .adventia-links{
+    margin: 2rem 0;
+    display: flex;
+     flex-direction: row; 
+     padding: 0 8rem;
+  }
+  /* Media query para cambiar a filas en pantallas más pequeñas */
+@media (max-width: 960px) {
+    .main-footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .main-footer-column {
+      flex: none;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  
+.topFooter-container{
+    // width: 100%;
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10rem;
+}
+  }
+  @media(max-width: 850px){
+    .adventia-links-column{
+        display: flex;
+        flex-direction: column; 
+    }
+}
+
+
+.topFooter-container{
+    // width: 100%;
+    margin: 1.3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10rem;
+}
+.topFooter-links-app{
+    margin: 1rem;
+}

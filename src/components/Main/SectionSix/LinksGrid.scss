@@ -1,0 +1,15 @@
+.links-grid {
+    color: #3B46B8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
+    margin: 0.7rem 0;
+    font-size: 14px ;
+    .link {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

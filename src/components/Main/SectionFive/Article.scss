@@ -1,0 +1,44 @@
+.article-container {
+    margin: 1.8rem 0 ;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  img {
+    background-color: transparent;
+    width: 50%;
+    object-fit: contain;
+    height: auto;
+    display: block;
+    height: auto;
+    max-width: 420px;
+    width: 100%;
+  }
+  div {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+.side-section-article {
+    // width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  h2 {
+    text-align: left;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  p {
+    word-wrap: break-word;
+    color: #575757;
+  }
+}
+.section-five-main-button {
+  &:hover {
+    background-color: rgba(160, 159, 159, 0.073) !important;
+  }
+}

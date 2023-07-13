@@ -1,0 +1,129 @@
+.card-carousel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // height: 400px;
+    flex-shrink: 0;
+
+  }
+  
+  .card-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  .card-carousel-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-carousel-price {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  .card-carousel-direction {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .card-carousel-info {
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+  .card-carousel-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .card-carousel-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    fill: currentColor;
+  }
+  
+  .card-carousel-icons span:not(:last-child) {
+    border-right: 1px solid #999999;
+    padding-right: 5px;
+  }
+  
+  .carousel-button {
+    // Resto de los estilos
+  
+    &.disabled {
+      color: rgba(226, 226, 226, 0.551);
+      cursor: not-allowed;
+    }
+  }
+  
+  .carousel-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-carousel-container {
+    width: 25%;
+    padding: 0.4rem;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3rem; // Aumenta el tamaño de los botones
+    height: 3rem; // Aumenta el tamaño de los botones
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; // Asegúrate de que no haya relleno para que los íconos estén centrados
+  }
+  
+  .carousel-button.prev {
+    border: 1px solid rgba(162, 156, 156, 0.764);
+    left: -4rem; // Asegúrate de que el botón esté correctamente posicionado
+  }
+  
+  .carousel-button.next {
+    border: 1px solid #a29c9cc3;
+    right: -4rem; // Asegúrate de que el botón esté correctamente posicionado
+  }
+  
+  .carousel-button svg { // Centra los íconos de Ant Design
+    color: #a29c9cde;
+    margin-left: 0.6rem;
+    width: 50%;
+    height: 80%;
+  }
+  .carousel-sectionTwo {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }

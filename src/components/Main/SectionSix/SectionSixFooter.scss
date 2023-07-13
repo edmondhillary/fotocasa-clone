@@ -1,0 +1,37 @@
+.tabs {
+    margin: 0rem 17.35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    .tab {
+        cursor: pointer;
+        padding: 10px;
+        position: relative;
+        width: auto;
+        &.active {
+            color: darkblue;
+        }
+        .underline {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: darkblue;
+            width: 100%;
+            display: none;
+            z-index: 1;
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+
+.underline-global {
+    height: 2px;
+    background-color: lightgray;
+    width: calc(100vw - 34rem);
+    margin: 0 17.35rem;
+}
